@@ -34,13 +34,16 @@ a{
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 20%;
     padding: 9px;
     margin-inline: auto;
     border-radius: 5px;
     color: aliceblue;
     transition: background-color 0.3s ease;
     text-decoration: none;
+    white-space:nowrap;
+    overflow: hidden;
+   
 }
 a:hover{
     background-color: rgb(218, 38, 92);
