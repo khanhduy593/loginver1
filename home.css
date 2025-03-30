@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+  
+    
+    color: rgb(0, 204, 255);
+    text-shadow:
+    2px 2px 0px black,  /* Viền đen phía bên phải và phía dưới */
+    -2px -2px 0px black, /* Viền đen phía bên trái và phía trên */
+    2px -2px 0px black,  /* Viền đen phía trên bên phải */
+    -2px 2px 0px black;  /* Viền đen phía dưới bên trái */
+ 
+}
+body{
+    background-image: url(rung-viet-nam-0.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.all{
+    box-shadow: 1px 1px 10px ;
+    border-radius: 10px;
+}
+a{
+    background-color: rgb(255, 127, 127);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding: 9px;
+    margin-inline: auto;
+    border-radius: 5px;
+    color: aliceblue;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(218, 38, 92);
+    
+}
+   
+   
